@@ -114,7 +114,7 @@
               <a href="#">VBIT MUN 2.0</a>
               <ul class="dropdown">
                 <li><a href="registrations.html">Registrations</a></li>
-                <li><a href="#">Allotments</a></li>
+                <li><a href="#" id="Allotments">Allotments</a></li>
                 <li><a href="venue.html">Venue</a></li>
                 <!-- <li><a href="#">Payment</a></li> -->
                 <!-- <li><a href="#news">News <span class="label label-success text-theme-colored">LATEST</span></a></li> -->
@@ -308,7 +308,7 @@
                   <div>
                     <p>3rd | 4th | 5th <br>December, 2021.<br></p>
                     <!-- <p style="margin-bottom: 20px;">countdown:</p> -->
-                    <!-- <span style="font-weight:900;color:black;padding: 1em;background-color: white;border-radius: 5px;" id="demo"></span> -->
+                    <span style="font-weight:900;color:black;padding: 1em;background-color: white;border-radius: 5px;" id="demo"></span>
                   </div>
                 </div>
               </li>
@@ -525,7 +525,7 @@
           </div>
           <div class="section-content">
                   <div class="pricing-table maxwidth200" data-bg-color="#000000">
-                    <div class="table-price text-white text-center">Perks</div>
+                    <div class="table-price text-white text-center"></div>
                     <p class="text-white">
                       <!-- <ul>
                         <li>
@@ -588,7 +588,7 @@
                 <a href="al.html">ARAB LEAGUE</a><br>
                 <a href="ip.html">INTERNATIONAL PRESS</a><br>
               </p>
-              <button onClick="showById(`hidden-committee`)" class="text-theme-colored font-13" href="index-mp-layout3.html#committes">Read more</button>
+              <button id="hidden-committee-button"onClick="showById(`hidden-committee`,`hidden-committee-button`)" class="text-theme-colored font-13" href="index-mp-layout3.html#committes">Read more</button>
             </div>
           </div>
           <div class="col-md-4 mb-sm-20">
@@ -597,21 +597,20 @@
               <h4 class="title"><a href="#">Intriguing Agendas</a></h4>
               <p class="mb-15">Relevant, thought provoking, debatable & burning questions.</p>
               <p id="hidden-agenda" style="text-align: left;">
-                1.DISEC<br>
-                The situation in Afghanistan.<br>
+                <span style="font-weight: 700;color: black;">DISEC</span><br>
+                ->The situation in Afghanistan.<br>
 
-                Strengthening and developing the system of arms control, disarmament
+                ->Strengthening and developing the system of arms control, disarmament
                 and non-proliferation treaties and agreements.<br>
-                2.AIPPM<br>
-                 Deliberating on legislations to prohibit animal cruelty with special emphasis on Banning of cow slaughter and animal sports<br>
+                <span style="font-weight: 700;color: black;">AIPPM</span><br>
+                ->Deliberating on legislations to prohibit animal cruelty with special emphasis on Banning of cow slaughter and animal sports<br>
 
-                Reviewing the security and law & order situation with special reference to counter terrorism measures at the State level<br>
-                3.ARAB LEAGUE<br>
-                The status of nuclear weapons in the Middle East.
-                Freeze Date and Timeline - TBA<br>
-
+                ->Reviewing the security and law & order situation with special reference to counter terrorism measures at the State level<br>
+                <span style="font-weight: 700;color: black;">ARAB LEAGUE</span><br>
+                ->The status of nuclear weapons in the Middle East.
+                ->Freeze Date and Timeline - TBA<br>
               </p>
-              <button onClick="showById(`hidden-agenda`)" class="text-theme-colored font-13" href="index-mp-layout3.html#committes">Read more</button>
+              <button id="hidden-agenda-button" onClick="showById(`hidden-agenda`,`hidden-agenda-button`)" class="text-theme-colored font-13" href="index-mp-layout3.html#committes">Read more</button>
             </div>
           </div>
           <div class="col-md-4 mb-sm-20">
@@ -884,7 +883,7 @@
     </section> -->
 
     <!-- Section: News -->
-    <!-- <section class="bg-theme-colored" id="news">
+    <section class="bg-theme-colored" id="news">
       <div class="divider parallax layer-overlay overlay-darkblue" data-stellar-background-ratio="0.5" data-bg-img="pics/black.jpg">
         <div class="container pt-50 pb-50">
           <div class="section-title">
@@ -1002,7 +1001,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- Section: Map -->
     <!-- <section>

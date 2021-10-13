@@ -2,9 +2,17 @@ var hiddenCommitte = document.getElementById('hidden-committee')
 var hiddenAgenda = document.getElementById('hidden-agenda')
 hiddenCommitte.style.display="none"
 hiddenAgenda.style.display="none"
-function showById(id_name){
+function showById(id_name,button_name){
     var obj = document.getElementById(id_name)
-    obj.style.display="block"
+    var button = document.getElementById(button_name)
+    if(obj.style.display=="none"){
+      obj.style.display="block"
+      button.innerText="Read Less"
+    } else{
+      obj.style.display="none"
+      button.innerText="Read more"
+      console.log("d")
+    }
 }
 /////
 // Set the date we're counting down to
@@ -36,3 +44,7 @@ var x = setInterval(function() {
   }
 }, 1000);
 //////////////
+var allotments = document.getElementById("Allotments")
+allotments.addEventListener("click",(e)={
+  a = window.prompt("Allotments are not currently not avilable foolow us on instagram for further updates!")
+})
