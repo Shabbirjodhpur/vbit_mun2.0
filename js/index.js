@@ -1,19 +1,6 @@
-var hiddenCommitte = document.getElementById('hidden-committee')
-var hiddenAgenda = document.getElementById('hidden-agenda')
-hiddenCommitte.style.display="block"
-hiddenAgenda.style.display="block"
-function showById(id_name,button_name){
-    var obj = document.getElementById(id_name)
-    var button = document.getElementById(button_name)
-    if(obj.style.display=="none"){
-      obj.style.display="block"
-      button.innerText="Read Less"
-    } else{
-      obj.style.display="none"
-      button.innerText="Read more"
-      console.log("d")
-    }
-}
+console.table([[1,2],[3,4],[5,6]])
+
+
 /////
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();

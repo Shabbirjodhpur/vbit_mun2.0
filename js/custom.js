@@ -1,3 +1,18 @@
+var hiddenCommitte = document.getElementById('hidden-committee')
+var hiddenAgenda = document.getElementById('hidden-agenda')
+hiddenCommitte.style.display="none";
+hiddenAgenda.style.display="none";
+function showById(id_name,button_name){
+    var obj = document.getElementById(id_name)
+    var button = document.getElementById(button_name)
+    if(obj.style.display=="none"){
+      obj.style.display="block"
+      button.innerText="Read Less"
+    } else{
+      obj.style.display="none"
+      button.innerText="Read more"
+    }
+};
 (function($) {
     "use strict";
 
