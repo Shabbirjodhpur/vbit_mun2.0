@@ -1,7 +1,7 @@
 var hiddenCommitte = document.getElementById('hidden-committee')
 var hiddenAgenda = document.getElementById('hidden-agenda')
-hiddenCommitte.style.display="none"
-hiddenAgenda.style.display="none"
+hiddenCommitte.style.display="block"
+hiddenAgenda.style.display="block"
 function showById(id_name,button_name){
     var obj = document.getElementById(id_name)
     var button = document.getElementById(button_name)
