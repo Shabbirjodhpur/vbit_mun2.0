@@ -15,7 +15,7 @@ function showById(id_name,button_name){
     }
 };
 function pop(){
-    a = window.prompt("Allotments are not currently not avilable follow us on instagram for further updates!")
+    a = window.alert("Allotments are not currently not avilable follow us on instagram for further updates!")
 }
 //////////////
 
