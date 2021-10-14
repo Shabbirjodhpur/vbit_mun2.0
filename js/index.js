@@ -1,7 +1,4 @@
-console.table([[1,2],[3,4],[5,6]])
 
-
-/////
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
 
@@ -30,4 +27,3 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-//////////////

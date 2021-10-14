@@ -1,5 +1,6 @@
 var hiddenCommitte = document.getElementById('hidden-committee')
 var hiddenAgenda = document.getElementById('hidden-agenda')
+var allotments = document.getElementById('Allotments')
 hiddenCommitte.style.display="none";
 hiddenAgenda.style.display="none";
 function showById(id_name,button_name){
@@ -13,10 +14,11 @@ function showById(id_name,button_name){
       button.innerText="Read more"
     }
 };
-var allotments = document.getElementById("Allotments")
-allotments.addEventListener("click",(e)={
-  a = window.prompt("Allotments are not currently not avilable foolow us on instagram for further updates!")
-});
+function pop(){
+    a = window.prompt("Allotments are not currently not avilable follow us on instagram for further updates!")
+}
+//////////////
+
 (function($) {
     "use strict";
 
