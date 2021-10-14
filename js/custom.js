@@ -13,6 +13,10 @@ function showById(id_name,button_name){
       button.innerText="Read more"
     }
 };
+var allotments = document.getElementById("Allotments")
+allotments.addEventListener("click",(e)={
+  a = window.prompt("Allotments are not currently not avilable foolow us on instagram for further updates!")
+});
 (function($) {
     "use strict";
 

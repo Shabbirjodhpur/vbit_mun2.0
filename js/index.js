@@ -31,7 +31,3 @@ var x = setInterval(function() {
   }
 }, 1000);
 //////////////
-var allotments = document.getElementById("Allotments")
-allotments.addEventListener("click",(e)={
-  a = window.prompt("Allotments are not currently not avilable foolow us on instagram for further updates!")
-})
