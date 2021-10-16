@@ -1,8 +1,4 @@
-var hiddenCommitte = document.getElementById('hidden-committee')
-var hiddenAgenda = document.getElementById('hidden-agenda')
-var allotments = document.getElementById('Allotments')
-hiddenCommitte.style.display="none";
-hiddenAgenda.style.display="none";
+
 function showById(id_name,button_name){
     var obj = document.getElementById(id_name)
     var button = document.getElementById(button_name)
@@ -16,7 +12,8 @@ function showById(id_name,button_name){
 };
 function pop(){
     a = window.alert("Allotments are not currently not avilable follow us on instagram for further updates!")
-}
+};
+
 //////////////
 
 (function($) {
@@ -40,7 +37,6 @@ function pop(){
     var $portfolio_filter = $(".portfolio-filter a");
     var $portfolio_filter_first_child = $(".portfolio-filter a:eq(0)");
     var $portfolio_flex_slider = $(".portfolio-slider");
-
 
     THEMEMASCOT.isMobile = {
         Android: function() {
